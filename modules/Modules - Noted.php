@@ -36,3 +36,24 @@
 //? readfile bagian demi bagian
 //~ Writable Stream
 //? writefile bagian demi bagian
+
+//@ Native Web Server nodejs
+//~ Membuat HTTP Server
+//? npm init --y ( y is default mode skip the asking node js)
+//? Node.js menyediakan core modules http untuk membangun web server
+//? server bisa melayani HTTP metode yg dikirim oleh client
+//~ Method/verb HTTP
+//? GET ; untuk mendapatkan data
+//? POST ; mengirim data
+//? PUT ; merubah data
+//? DELETE ; menghapus data
+//~ Body Request
+//? biasanya untuk method POST/PUT/DELETE, data yang dikirim oleh client
+//~ Response status
+//? 100-199 : informational responses.
+//? 200 - 299 : successful responses.
+//? 300-399 : redirect.
+//? 400-499 : client error.
+//? 500-599 : server errors.
+//~ Response Header
+//? MIME types; tipe data yang diberikan oleh server untuk client json/gambar/xml dll
