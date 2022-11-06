@@ -1,5 +1,4 @@
 const http = require("http"); //? init core mod http
-
 const requestListener = (request, response) => {
   const { method } = request; //? request method dari client
   const { url } = request; //? request url dari client
@@ -58,3 +57,4 @@ server.listen(port, host, () => {
 });
 
 //? curl -X GET http://localhost:5000/ ( run by cmd )
+//? curl -X GET http://localhost:5000/about
