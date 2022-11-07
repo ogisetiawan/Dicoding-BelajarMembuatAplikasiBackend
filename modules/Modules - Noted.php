@@ -57,3 +57,14 @@
 //? 500-599 : server errors.
 //~ Response Header
 //? MIME types; tipe data yang diberikan oleh server untuk client json/gambar/xml dll
+//~ Nodemon tool
+//? tools yang dapat membantu agar tak perlu menjalankan ulang server ketika terjadi perubahan pada berkas JavaScript
+//? npm install nodemon --save-dev
+//~ Eslint
+//? tools yang dapat membantu dalam penulisan javascript standart 
+//~ Nanoid
+//? tools yang dapat menangani unique ID
+//~ Same-Origin policy
+//? origin adalah server yang berbeda, seperti host port dan protokol
+//~ CORS
+//? Cross-origin resource sharing; teknik yang dapat bertukar data antar origin (client-server)
