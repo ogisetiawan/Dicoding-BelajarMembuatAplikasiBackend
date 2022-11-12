@@ -57,13 +57,18 @@
 //? 500-599 : server errors.
 //~ Response Header
 //? MIME types; tipe data yang diberikan oleh server untuk client json/gambar/xml dll
+//~ Hapi 
+//? third party untuk membuat HTTP server
+//? npm install @hapi/hapi
 //~ Nodemon tool
 //? tools yang dapat membantu agar tak perlu menjalankan ulang server ketika terjadi perubahan pada berkas JavaScript
 //? npm install nodemon --save-dev
 //~ Eslint
 //? tools yang dapat membantu dalam penulisan javascript standart 
+//? npm install eslint --save-dev
 //~ Nanoid
 //? tools yang dapat menangani unique ID
+//? npm install nanoid@3.x.x (jika menggunakan versi terbaru, nanoid tidak dapat digunakan dengan format module CommonJS)
 //~ Same-Origin policy
 //? origin adalah server yang berbeda, seperti host port dan protokol
 //~ CORS
