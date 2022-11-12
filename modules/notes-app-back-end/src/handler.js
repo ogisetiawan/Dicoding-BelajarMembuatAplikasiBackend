@@ -3,7 +3,6 @@ const notes = require("./notes");
 
 //@ addNotes
 const addNoteHandler = (request, h) => {
-  //? body request
   const { title, tags, body } = request.payload; //? request from client
 
   const id = nanoid(16); //? id request with Nanoid
