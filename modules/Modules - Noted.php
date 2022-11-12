@@ -68,3 +68,11 @@
 //? origin adalah server yang berbeda, seperti host port dan protokol
 //~ CORS
 //? Cross-origin resource sharing; teknik yang dapat bertukar data antar origin (client-server)
+
+//@ Deploy web service
+//? Amazon EC2 (Amazon Elastic Compute Cloud) layanan komputasi elastis di cloud
+//? server EC2 ini bersifat elastis karena ia dapat menyesuaikan kapasitasnya berdasarkan permintaan dari client
+//? Amazon EC2 server (instance) bersifat pay-as-you-go, artinya Anda hanya membayar sesuai dengan pemakaian
+
+//@ Mengkonsumsi dan menguji RESTful API 
+//? automated testing by postman and jest ( javascript testing )
